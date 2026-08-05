@@ -12,10 +12,10 @@ Portfólio pessoal desenvolvido para apresentar projetos, habilidades e formas d
 
 | Desktop | Mobile |
 |---|---|
-| ![Home Desktop](c:\Users\paulo\Pictures\Screenshots\home.png) | 
+| ![Home Desktop](home.png) | 
 
 ### Seção de Projetos
-![Projetos](c:\Users\paulo\Pictures\Screenshots\projetos.png)
+![Projetos](projetos.png)
 
 
 ---
