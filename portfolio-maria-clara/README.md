@@ -1,6 +1,6 @@
 # 💻 Portfólio — Maria Clara
 
-Portfólio pessoal desenvolvido para apresentar projetos, habilidades e formas de contato de Maria Clara, desenvolvedora de Software formada em Análise e Desenvolvimento de Sistemas.
+Portfólio pessoal desenvolvido para apresentar projetos, habilidades e formas de contato de **Maria Clara**, desenvolvedora Front-end e estudante de Análise e Desenvolvimento de Sistemas.
 
 🔗 **[Ver site publicado](#)** _(coloque aqui o link depois de hospedar)_
 
@@ -8,15 +8,11 @@ Portfólio pessoal desenvolvido para apresentar projetos, habilidades e formas d
 
 ## 📸 Screenshots
 
-> Para ver como adicionar os prints, leia `screenshots/COMO-TIRAR-OS-PRINTS.txt`
+### Home
+![Home](screenshots/desktop-home.png)
 
-| Desktop | Mobile |
-|---|---|
-| ![Home Desktop](home.png) | 
-
-### Seção de Projetos
-![Projetos](projetos.png)
-
+### Projetos
+![Projetos](screenshots/desktop-projetos.png)
 
 ---
 
@@ -59,7 +55,7 @@ portfolio-maria-clara/
 │   └── projetos/        # Prints dos projetos exibidos no portfólio
 ├── audio/
 │   └── trilha-tecnologia.mp3   # Música de fundo opcional
-└── screenshots/         # Prints do site para este README
+└── screenshots/         # Prints do site usados neste README
 ```
 
 ---
