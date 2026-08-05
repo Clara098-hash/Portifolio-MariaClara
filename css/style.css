@@ -661,7 +661,7 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; }
 
 @media (max-width: 920px) {
   .hero-inner { grid-template-columns: 1fr; text-align: center; }
-  .hero-text { margin-left: auto; margin-right: auto; }
+  .hero-subtitle, .hero-text { text-align: left; max-width: 480px; margin-left: auto; margin-right: auto; }
   .hero-actions { justify-content: center; }
   .hero-visual { order: -1; margin-bottom: 20px; }
   .about-grid { grid-template-columns: 1fr; }
@@ -684,6 +684,7 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; }
   .about-stats { gap: 28px; flex-wrap: wrap; }
   .float-chip { display: none; }
   .cta-content { padding: 44px 26px; }
+  .cta-content p { text-align: left; max-width: 480px; margin-left: auto; margin-right: auto; }
 }
 
 @media (max-width: 480px) {

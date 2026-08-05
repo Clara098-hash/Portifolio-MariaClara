@@ -1,15 +1,22 @@
 # 💻 Portfólio — Maria Clara
 
-Portfólio pessoal desenvolvido para apresentar projetos, habilidades e formas de contato de **Maria Clara**, desenvolvedora de Software Formada em Análise e Desenvolvimento de Sistemas.
+Portfólio pessoal desenvolvido para apresentar projetos, habilidades e formas de contato de **Maria Clara**, desenvolvedora Front-end e estudante de Análise e Desenvolvimento de Sistemas.
 
-🔗[Ver site publicado](#)
+🔗 **[Ver site publicado](#)** _(coloque aqui o link depois de hospedar)_
 
+---
 
+## 📸 Screenshots
+
+### Home
 ![Home](screenshots/desktop-home.png)
+
+### Projetos
 ![Projetos](screenshots/desktop-projetos.png)
 
+---
 
-✨ Funcionalidades
+## ✨ Funcionalidades
 
 - Design moderno com tema **claro/escuro** (alternável pelo usuário, salvo no navegador)
 - Totalmente **responsivo** — se adapta a celular, tablet e desktop
@@ -22,19 +29,20 @@ Portfólio pessoal desenvolvido para apresentar projetos, habilidades e formas d
 - Botão de **voltar ao topo**
 - Ícones via [Lucide Icons](https://lucide.dev)
 
+---
 
-🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - **HTML5** — estrutura semântica
 - **CSS3** — variáveis CSS, Grid, Flexbox, animações e media queries para responsividade
 - **JavaScript (Vanilla)** — sem frameworks, interações e lógica escritas do zero
 - **Lucide Icons** — ícones via CDN
 
+---
 
+## 📁 Estrutura do projeto
 
-📁 Estrutura do projeto
-
-
+```
 portfolio-maria-clara/
 ├── index.html          # Página principal
 ├── css/
@@ -48,36 +56,50 @@ portfolio-maria-clara/
 ├── audio/
 │   └── trilha-tecnologia.mp3   # Música de fundo opcional
 └── screenshots/         # Prints do site usados neste README
+```
 
+---
 
-
-
-🚀 Como rodar localmente
+## 🚀 Como rodar localmente
 
 Não precisa de instalação nem build — é só HTML, CSS e JS puros.
 
-bash
+```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/portfolio-maria-clara.git
 
-Entre na pasta
+# Entre na pasta
 cd portfolio-maria-clara
 
-Abra o index.html no navegador
-
+# Abra o index.html no navegador
+```
 
 Ou, se preferir rodar com um servidor local (recomendado, evita problemas de caminho de arquivo):
 
-bash
+```bash
 # Com Python instalado
 python3 -m http.server 8000
 # depois acesse http://localhost:8000
+```
 
+---
 
-📬 Contato
+## 🌐 Como hospedar no GitHub Pages
 
-O formulário de contato do site envia a mensagem diretamente para o WhatsApp. Outras formas de contato estão disponíveis na própria seção Contato do site.
+1. Suba este projeto para um repositório no GitHub.
+2. Vá em **Settings → Pages**.
+3. Em **Source**, selecione a branch `main` e a pasta `/root`.
+4. Salve — em alguns minutos o site estará no ar em:
+   `https://seu-usuario.github.io/portfolio-maria-clara/`
 
-📄 Licença
+---
+
+## 📬 Contato
+
+O formulário de contato do site envia a mensagem diretamente para o WhatsApp. Outras formas de contato estão disponíveis na própria seção **Contato** do site.
+
+---
+
+## 📄 Licença
 
 Este projeto é de uso pessoal de Maria Clara. Sinta-se à vontade para se inspirar na estrutura, mas evite reutilizar o conteúdo e as imagens diretamente.
