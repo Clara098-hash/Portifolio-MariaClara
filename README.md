@@ -53,6 +53,8 @@ Sou Maria Clara, formada em **Análise e Desenvolvimento de Sistemas** pelo **IF
 maria-clara-portfolio/
 ├── assets/
 │   ├── audio/          # Trilha sonora de fundo
+│   ├── files/
+│   │   └── curriculo-maria-clara.pdf   # Currículo para download na Home
 │   ├── icons/
 │   └── images/
 │       └── projects/   # Capturas dos projetos exibidos na seção "Projetos"
@@ -74,6 +76,7 @@ maria-clara-portfolio/
 - Alternância entre tema claro e escuro (salva a preferência no navegador)
 - Música de fundo opcional, ativada manualmente pelo usuário
 - Filtro de projetos por categoria (Todos / Sites / Sistemas)
+- Download do currículo em PDF direto pela Home
 - Modal com detalhes de cada projeto
 - Formulário de contato e atalhos diretos para WhatsApp e Instagram
 
