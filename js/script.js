@@ -493,17 +493,22 @@ function initProjectModal(){
 function initProjectFilters(){
   const buttons = document.querySelectorAll('.filter-btn');
   const track = document.getElementById('projectsTrack');
+  const emptyMsg = document.getElementById('projectsEmpty');
 
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
       buttons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const filter = btn.dataset.filter;
+      let visibleCount = 0;
 
       track.querySelectorAll('.project-card').forEach(card => {
         const show = filter === 'todos' || card.dataset.cat === filter;
         card.classList.toggle('hidden', !show);
+        if (show) visibleCount++;
       });
+
+      if (emptyMsg) emptyMsg.classList.toggle('visible', visibleCount === 0);
     });
   });
 }

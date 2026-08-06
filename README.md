@@ -76,10 +76,26 @@ maria-clara-portfolio/
 - Layout em tela cheia com navegação por scroll (seções em painéis)
 - Alternância entre tema claro e escuro (salva a preferência no navegador)
 - Música de fundo opcional, ativada manualmente pelo usuário
-- Filtro de projetos por categoria (Todos / Sites / Sistemas / Jogos)
+- Filtro de projetos por categoria (Todos / Sites / Sistemas / Jogos / Aplicativos)
 - Download do currículo em PDF direto pela Home
 - Modal com detalhes de cada projeto
 - Formulário de contato e atalhos diretos para WhatsApp e Instagram
+
+## ➕ Como adicionar um novo projeto
+
+Os projetos são renderizados dinamicamente a partir do array `PROJECTS_DATA`, em `js/script.js`. Para adicionar um novo (por exemplo, na categoria "Aplicativos"), basta incluir um objeto no array:
+
+```js
+{
+  name: 'Nome do App',
+  cat: 'apps', // 'sites' | 'sistemas' | 'jogos' | 'apps'
+  img: 'assets/images/projects/nome-do-arquivo.jpg',
+  desc: 'Descrição curta do que o projeto faz.',
+  tech: ['Kotlin', 'Firebase']
+}
+```
+
+A imagem correspondente deve ser colocada em `assets/images/projects/`. O card e o filtro já aparecem automaticamente — não é preciso mexer no HTML.
 
 ## 🖥️ Como executar localmente
 

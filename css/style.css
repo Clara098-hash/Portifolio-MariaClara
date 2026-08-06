@@ -430,6 +430,11 @@ button{ font-family:inherit; cursor:none; }
   display:flex; gap:20px; overflow-x:auto; padding:8px 4px 24px; scroll-snap-type:x proximity;
   scrollbar-width:thin;
 }
+.projects-empty{
+  display:none; text-align:center; font-family:var(--f-mono); font-size:.85rem;
+  color:var(--text-dim); padding:40px 20px; border:1px dashed var(--line); border-radius:16px;
+}
+.projects-empty.visible{ display:block; }
 .project-card{
   scroll-snap-align:start; flex:0 0 clamp(280px,72vw,380px);
   background:var(--surface); border:1px solid var(--line); border-radius:20px; overflow:hidden;
