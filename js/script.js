@@ -407,6 +407,13 @@ const PROJECTS_DATA = [
     desc: 'Site para especialista em alongamento de cílios, com identidade visual delicada, agendamento direto pelo WhatsApp e integração com Instagram.',
     tech: ['HTML', 'CSS', 'JavaScript']
   },
+  {
+    name: 'Sombra no Campus',
+    cat: 'jogos',
+    img: 'assets/images/projects/sombranocampus.jpg',
+    desc: 'Jogo 2D de suspense e exploração ambientado no IFCE de Jaguaruana. A aventura é dividida em três fases, nas quais o jogador deve explorar diferentes áreas da instituição, encontrar pistas, superar desafios e desvendar os mistérios que cercam o campus. Com uma atmosfera sombria e envolvente, o jogo combina investigação, estratégia e aventura, proporcionando uma experiência imersiva do início ao fim.',
+    tech: ['Game Design', 'Pixel Art', 'JavaScript']
+  },
 ];
 
 function renderProjects(){

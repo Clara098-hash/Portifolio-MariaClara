@@ -46,6 +46,7 @@ Sou Maria Clara, formada em **Análise e Desenvolvimento de Sistemas** pelo **IF
 | **CBOdonto** | Site para clínica odontológica com apresentação de especialidades, estatísticas de atendimento e botão direto de agendamento de consulta. | HTML, CSS, JavaScript |
 | **Estoque+** | Sistema de gestão de estoque com autenticação via Google, painel de métricas, controle de produtos e relatórios de movimentação. | React, Firebase |
 | **Wemilly Rocha Beauty** | Site para especialista em alongamento de cílios, com identidade visual delicada, agendamento direto pelo WhatsApp e integração com Instagram. | HTML, CSS, JavaScript |
+| **Sombra no Campus** | Jogo 2D de suspense e exploração ambientado no IFCE de Jaguaruana, dividido em três fases. O jogador explora diferentes áreas da instituição, encontra pistas, supera desafios e desvenda os mistérios do campus em uma atmosfera sombria e imersiva. | Game Design, Pixel Art, JavaScript |
 
 ## 📁 Estrutura do projeto
 
@@ -75,7 +76,7 @@ maria-clara-portfolio/
 - Layout em tela cheia com navegação por scroll (seções em painéis)
 - Alternância entre tema claro e escuro (salva a preferência no navegador)
 - Música de fundo opcional, ativada manualmente pelo usuário
-- Filtro de projetos por categoria (Todos / Sites / Sistemas)
+- Filtro de projetos por categoria (Todos / Sites / Sistemas / Jogos)
 - Download do currículo em PDF direto pela Home
 - Modal com detalhes de cada projeto
 - Formulário de contato e atalhos diretos para WhatsApp e Instagram
